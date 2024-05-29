@@ -31,3 +31,25 @@ console.log(typeof employed);//return object;
 
 //we will discuss array in javascript later,
 
+//+++++++++++++++++++++++++++++++++++memory allocation+++++++++++++++++++++++++++++++++++++++++++++++
+//memory store either in stack or in heap
+//in primitive datatypes the memory stored in stack and copy of variable passed , because of this when we try to change
+//the actual value but actually we are changing the copied value;
+let mygmail="syash7157@gmail.com";
+let secondmail=mygmail;
+secondmail="yash886577@gmail.com";
+
+console.log(mygmail);
+console.log(secondmail);//se no change occurs.
+
+
+//let see heap memory in non-premitive datatypes,as here the change are done in actual memory space ,variable having the reference 
+//of allocated data when we try to change the actual changes arrises.
+let employee={
+    email:"syash7157@gmail.com",
+    
+}
+let mydetails=employee;
+mydetails.email = "yash886577@gmail.com";
+console.log(employee.email);
+console.log(mydetails.email);
