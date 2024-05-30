@@ -11,7 +11,7 @@ console.log("04"> 2);
 //this is above compasion the javascript automatically convert the string to number , but while doing comparison we must assure 
 // the datatye of both the variables are same,alternative datatypes dose't give the predicttic results
 
-console.log(null> 0);
+console.log(null< 0);
 console.log(null==0);
 console.log(null>=0);
 //javascripts have a differnt way to invoke comparsion operator and equality operator
