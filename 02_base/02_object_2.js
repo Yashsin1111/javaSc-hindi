@@ -43,3 +43,39 @@ console.log(Object.values(tinderuser));
 
 console.log(Object.entries(tinderuser));
 console.log(tinderuser.hasOwnProperty('email'));//identify that this object exixt or not in your space
+
+//+++++++++++++++++++++++++++++++++object de-structuring++++++++++++++++++++++++++++++++++++++++++++
+const cousre={
+    name:"chai or javascript",
+    price:"free",
+    cousreInstructor:"hitesh chaudhary",
+}
+// if we want to access the value then we can go through this syntax
+// cousre.cousreInstructor
+//but for the cleanness of the code we can (anather way to access the object values)
+const {cousreInstructor: instructor}=cousre;//:...,we can assign new name to access.
+// console.log(cousreInstructor);
+console.log(instructor);
+//this is JSON -DATA
+{
+    "employees":[
+      {"firstName":"John", "lastName":"Doe"},
+      {"firstName":"Anna", "lastName":"Smith"},
+      {"firstName":"Peter", "lastName":"Jones"}
+    ]
+    }
+
+//conveting JSON data to object
+let text = '{ "employees" : [' +
+'{ "firstName":"John" , "lastName":"Doe" },' +
+'{ "firstName":"Anna" , "lastName":"Smith" },' +
+'{ "firstName":"Peter" , "lastName":"Jones" } ]}';
+
+const obj = JSON.parse(text);
+
+console.log(text);
+console.log(obj);
+console.log(typeof text);
+console.log(typeof obj);
+// https://www.w3schools.com/js/js_json.asp
+//to through this doc.and learn about JSON
