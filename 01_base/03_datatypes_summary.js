@@ -1,3 +1,11 @@
+let score =33;
+console.log(typeof score)//return number
+//suppose , score="33abc";
+let valueinnumber=number(score);
+console.log(typeof valueinnumber);//return number 
+console.log(valueinnumber)//return NaN 
+
+
 //primitive
 // number , boolean , string , BigInt , symbol , null
 
