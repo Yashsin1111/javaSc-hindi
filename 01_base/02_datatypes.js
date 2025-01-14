@@ -21,5 +21,5 @@ let isloggedin=true;//boolean
 
 // typeof, is a pre-defined function use to display the type of data;
 console.log(typeof "yash");
-console.log(typeof null);
-console.log(typeof undefined);
+console.log(typeof null);//return object, object is a type.
+console.log(typeof undefined);// return undefined, undefinned is also a type.
