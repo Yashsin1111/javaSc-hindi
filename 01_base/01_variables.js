@@ -11,7 +11,7 @@ employeCentre="delhi";
 employeeName="anshu";
 employeeAdd="thikmpur";
 employeCentre="kolkata";
-
+let employeState; //leaving without initialization return you undefined.
 //here is some pre-defined function to display the data in the form of table,it can also help you to display many
 //variables simaltaniously
 
