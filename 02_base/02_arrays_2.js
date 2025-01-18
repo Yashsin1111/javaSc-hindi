@@ -17,8 +17,8 @@ const anatherarray_new=anatherarray.flat(Infinity);//Returns a new array with al
 //recursively up to the specified depth.
 console.log(anatherarray_new);
 
-console.log(Array.isArray("hitesh"));
-console.log(Array.from("yash"));
+console.log(Array.isArray("hitesh"));//return false
+console.log(Array.from("yash"));// return an array
 console.log(Array.from({name: "hitsh"}));//we have to declare the key and value to convet in the arrays ,if not declared 
 //then its automaticaally return empty[],we will study later
 
