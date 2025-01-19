@@ -17,6 +17,7 @@ const user={
 }
 console.log(user.email);//we can declare by using dot(.),but use [" "],is an efficient way to display it.
 console.log(user["email"]);
+// console.log(user[full name]);
 // console.log(user.mysmb);
 // console.log(typeof user.mysmb);//return string 
 // console.log(typeof user[mysmb]);// act as symbol
