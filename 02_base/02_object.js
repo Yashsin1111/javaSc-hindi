@@ -7,6 +7,7 @@ const mysmb=Symbol("mykey1");//we are declare a symbol and we want to use this a
 
 const user={
     name:"yash kumar singh", //js takes key as string eg:name="name";
+    "full name":"anshu"//we can't access this (.) operator we need square braces.
     age:21,
     [mysmb]:"mykey",//declare mysmb in square braces,to use as a symbol
     address:"kalpana colony thikampur ballia",
